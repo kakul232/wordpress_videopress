@@ -1,8 +1,6 @@
 
 <!-- Polling Form Start Here ---->
 
-
-
  <?php do_action('bootsrtap_hook'); 
 
   echo $need_video_comment=get_user_meta (get_current_user_id(), 'need_video_comment', true );
